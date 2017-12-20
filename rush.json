@@ -1,0 +1,22 @@
+{
+    "rushVersion": "4.0.0",
+    "npmVersion": "3.10.3",
+    "nodeSupportedVersionRange": ">=6.6.0 <7.0.0",
+    "projectFolderMaxDepth": 5,
+
+    "projects": [
+        {
+            "packageName": "liveblog",
+            "projectFolder": "client"
+        },
+        {
+            "packageName": "liveblog-default-theme",
+            "projectFolder": "server/liveblog/themes/themes_assets/default",
+            "shouldPublish": true
+        },
+        {
+            "packageName": "liveblog-amp-theme",
+            "projectFolder": "server/liveblog/themes/themes_assets/amp"
+        }
+    ]
+}
